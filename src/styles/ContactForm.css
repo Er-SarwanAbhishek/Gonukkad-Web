@@ -1,0 +1,132 @@
+.contact{
+    max-width: 1440px;
+    padding: 50px 40px;
+    display: flex;
+    justify-content:center;
+}
+.contact-section {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  
+  }
+  
+  .contact-container {
+    display: flex;
+    width: 100%;
+    margin: 40px;
+    align-items: center;
+ 
+    gap: 40px;
+  }
+  
+  .contact-left {
+    flex: 1;
+    width: 45%;
+  }
+  
+  .contact-left h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-left p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .contact-left img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 5px;
+  }
+  
+  .contact-right {
+    flex: 1;
+    width: 45%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  form button {
+    background-color: #e91e63;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .contact-right {
+    flex: 1;
+    width: 45%;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border:none;
+    border-bottom: 2px solid #ddd ;
+    font-size: 16px;
+
+}
+
+form textarea {
+    height: 50px;
+    resize: none;
+    
+    resize: none;
+    /* margin-top: 20px; */
+    line-height: 1.8;
+  
+}
+
+form button {
+    background-color: #d81b60;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #c2185b;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+  
+    box-shadow: none; 
+}

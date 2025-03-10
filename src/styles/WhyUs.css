@@ -1,0 +1,88 @@
+.whyUss {
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+  }
+  
+  .whyUss h2 {
+    font-size: 40px;
+
+  }
+  
+  .whyUss p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #ff007a;
+    font-weight: 600;
+
+  }
+  
+  .whyUss h2 {
+    font-size: 40px;
+
+  }
+  
+  .whyUs-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px; 
+  }
+  .whyUs-card {
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: 350px;
+    min-width: 300px;
+    background: white;
+    padding: 30px;
+    border: 1px solid rgb(235, 228, 228);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .whyUs-card-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon svg{
+    color: #e60073; 
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  .whyUs-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .whyUs-card:hover {
+    transform: translateY(-5px);
+    background-color: rgb(241, 241, 248);
+  }
+  .whyUs-card .whyUs-card-icon{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .whyUs-card .icon {
+    font-size: 24px;
+    color: #ff007a;
+  }
+  
+  .whyUs-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .whyUs-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
